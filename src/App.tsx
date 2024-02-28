@@ -7,6 +7,7 @@ import { MuiSelect } from './components/MuiSelect';
 import { MuiRadioButton } from './components/MuiRadioButton';
 import { MuiCheckbox } from './components/MuiCheckbox';
 import { MuiSwitch } from './components/MuiSwitch';
+import { MuiRating } from './components/MuiRating';
 
 /*
 const theme = createTheme({
@@ -36,7 +37,8 @@ function App() {
       {/* {<MuiSelect />} */}
       {/* {<MuiRadioButton />} */}
       {/* {<MuiCheckbox />} */}
-      {<MuiSwitch />}
+      {/* {<MuiSwitch />} */}
+      {<MuiRating />}
     </div>
     //</ThemeProvider>
   );
