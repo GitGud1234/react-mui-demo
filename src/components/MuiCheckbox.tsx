@@ -4,7 +4,10 @@ export const MuiCheckbox = () => {
   return (
     <Box>
       <Box>
-        <FormControlLabel label="I Accept terms and conditions" />
+        <FormControlLabel
+          label="I Accept terms and conditions"
+          control={<Checkbox />}
+        />
       </Box>
     </Box>
   );
