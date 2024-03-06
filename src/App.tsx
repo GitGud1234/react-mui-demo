@@ -28,6 +28,7 @@ import { MuiTable } from './components/MuiTable';
 import { MuiAlert } from './components/MuiAlert';
 import { MuiSnackbar } from './components/MuiSnackbar';
 import { MuiDialog } from './components/MuiDialog';
+import { MuiProgress } from './components/MuiProgress';
 
 /*
 const theme = createTheme({
@@ -78,7 +79,8 @@ function App() {
       {/* <MuiTable /> */}
       {/* <MuiAlert /> */}
       {/* <MuiSnackbar /> */}
-      <MuiDialog />
+      {/* <MuiDialog /> */}
+      <MuiProgress />
     </div>
     //</ThemeProvider>
   );
