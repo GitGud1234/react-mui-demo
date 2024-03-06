@@ -18,6 +18,8 @@ import { MuiLink } from './components/MuiLink';
 import { MuiBreadcrumbs } from './components/MuiBreadcrumbs';
 import { MuiDrawer } from './components/MuiDrawer';
 import { MuiSpeedDial } from './components/MuiSpeedDial';
+import { MuiBottomNav } from './components/MuiBottomNav';
+
 /*
 const theme = createTheme({
   typography: {
@@ -57,7 +59,8 @@ function App() {
       {/* {<MuiLink />} */}
       {/* <MuiBreadcrumbs /> */}
       {/* <MuiDrawer /> */}
-      <MuiSpeedDial />
+      {/* <MuiSpeedDial /> */}
+      <MuiBottomNav />
     </div>
     //</ThemeProvider>
   );
