@@ -16,6 +16,7 @@ import { MuiImageList } from './components/MuiImageList';
 import { MuiNavbar } from './components/MuiNavbar';
 import { MuiLink } from './components/MuiLink';
 import { MuiBreadcrumbs } from './components/MuiBreadcrumbs';
+import { MuiDrawer } from './components/MuiDrawer';
 /*
 const theme = createTheme({
   typography: {
@@ -53,7 +54,8 @@ function App() {
       {/* {<MuiImageList />} */}
       {/* {<MuiNavbar />} */}
       {/* {<MuiLink />} */}
-      <MuiBreadcrumbs />
+      {/* <MuiBreadcrumbs /> */}
+      <MuiDrawer />
     </div>
     //</ThemeProvider>
   );
