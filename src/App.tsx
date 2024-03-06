@@ -20,6 +20,7 @@ import { MuiDrawer } from './components/MuiDrawer';
 import { MuiSpeedDial } from './components/MuiSpeedDial';
 import { MuiBottomNav } from './components/MuiBottomNav';
 import { MuiAvatar } from './components/MuiAvatar';
+import { MuiBadge } from './components/MuiBadge';
 
 /*
 const theme = createTheme({
@@ -62,7 +63,8 @@ function App() {
       {/* <MuiDrawer /> */}
       {/* <MuiSpeedDial /> */}
       {/* <MuiBottomNav /> */}
-      <MuiAvatar />
+      {/* <MuiAvatar /> */}
+      <MuiBadge />
     </div>
     //</ThemeProvider>
   );
