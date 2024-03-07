@@ -33,7 +33,8 @@ import './App.css';
 /* MUI LAB */
 //import { MuiLoadingButton } from './components/MuiLoadingButton';
 // import { MuiPicker } from './components/MuiPicker';
-import { MuiTabs } from './components/MuiTabs';
+// import { MuiTabs } from './components/MuiTabs';
+import { MuiTimeline } from './components/MuiTimeline';
 
 /*
 const theme = createTheme({
@@ -89,7 +90,8 @@ function App() {
       {/* <MuiSkeleton /> */}
       {/* <MuiLoadingButton /> */}
       {/* <MuiPicker /> */}
-      <MuiTabs />
+      {/* <MuiTabs />s */}
+      <MuiTimeline />
     </div>
     //</ThemeProvider>
   );
