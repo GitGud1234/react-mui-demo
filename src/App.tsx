@@ -34,7 +34,8 @@ import './App.css';
 //import { MuiLoadingButton } from './components/MuiLoadingButton';
 // import { MuiPicker } from './components/MuiPicker';
 // import { MuiTabs } from './components/MuiTabs';
-import { MuiTimeline } from './components/MuiTimeline';
+// import { MuiTimeline } from './components/MuiTimeline';
+import { MuiMasonry } from './components/MuiMasonry';
 
 /*
 const theme = createTheme({
@@ -91,7 +92,8 @@ function App() {
       {/* <MuiLoadingButton /> */}
       {/* <MuiPicker /> */}
       {/* <MuiTabs />s */}
-      <MuiTimeline />
+      {/* <MuiTimeline /> */}
+      <MuiMasonry />
     </div>
     //</ThemeProvider>
   );
